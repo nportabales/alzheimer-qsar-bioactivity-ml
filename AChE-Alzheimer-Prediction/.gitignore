@@ -1,0 +1,16 @@
+# Data (regenerated from ChEMBL, see data/README.md)
+data/raw/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Results
+results/*.png
+
+# OS
+.DS_Store
