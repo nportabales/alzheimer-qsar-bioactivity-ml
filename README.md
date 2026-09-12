@@ -111,11 +111,3 @@ python src/train_model.py
    - Referencia para la comparación de algoritmos (SVM, k-NN, Random Forest) y el umbral de actividad de 1 µM/1000 nM usado para la clasificación activo/inactivo.
 
 Los PDFs de ambos artículos están disponibles en [`docs/references/`](docs/references/).
-
-## Próximos pasos (hacia el TFG/thesis)
-
-- [x] Recuperar el artículo(s) de referencia.
-- [ ] Recuperar el Excel/CSV original y añadirlo a `data/`.
-- [ ] Incorporar descriptores 3D para mejorar la detección de andamiajes híbridos (caso Tacrina).
-- [ ] Calibrar las probabilidades del modelo para escenarios de prevalencia real (<1% de activos).
-- [ ] Ampliar la validación externa con más compuestos de referencia.
